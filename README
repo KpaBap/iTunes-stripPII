@@ -1,0 +1,20 @@
+I wrote a quick and dirty script to strip personal info from iTunes songs. Enjoy.
+This has not been tested with Python 3.x
+
+Edit the script and put in your name, email address and file extension of your songs
+
+Copy this script to the folder that contains your songs
+
+From a terminal/CLI, change directory to the aforementioned folder
+
+Run the script by typing: python strip.py
+
+
+
+It will look for all files with the given file extension
+
+Then, it will open each file and replace all occurences of your name and email with spaces
+
+
+
+NOTE: PLEASE BACK UP YOUR SONGS BEFORE RUNNING THE SCRIPT IN CASE SOMETHING GOES WRONG
